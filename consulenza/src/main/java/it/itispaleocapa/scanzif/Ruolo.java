@@ -1,18 +1,9 @@
 package it.itispaleocapa.scanzif;
 
-class Ruolo {
-    
-}
-
-class Dirigente extends Ruolo{
-
-}
-
-class Funzionario extends Ruolo{
-    
-}
-
-class Tecnico extends Ruolo{
-    Specializzazione specializzazione;
-    Posizione posizione;
+public enum Ruolo {
+    Dirigente,
+    Funzionario,
+    Tecnico;
+    public Posizione posizione;
+    public Specializzazione specializzazione;
 }
